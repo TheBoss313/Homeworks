@@ -9,7 +9,7 @@ class DoodleJump:
         self.screen = pygame.display.set_mode((800, 600))
         pygame.font.init()
         self.font = pygame.font.SysFont('Arial', 25)
-        self.green = pygame.image.load('assets/green.png').convert_alpha()
+        self.green = pygame.image.load('Pygame1/green.png').convert_alpha()
         self.platforms = []
         self.springs = []
         self.cameray = 0
@@ -19,16 +19,16 @@ class DoodleJump:
         self.jump = 0
         self.gravity = 0
         self.xmovement = 0
-        self.blue = pygame.image.load('assets/blue.png')
-        self.died = pygame.image.load('assets/died.png')
-        self.spring = pygame.image.load('assets/spring.png')
-        self.spring_1 = pygame.image.load('assets/spring_1.png')
-        self.red_1 = pygame.image.load('assets/red_1.png')
-        self.red = pygame.image.load('assets/red.png')
-        self.playerLeft_1 = pygame.image.load('assets/left_1.png')
-        self.playerRight_1 = pygame.image.load('assets/right_1.png')
-        self.playerRight = pygame.image.load('assets/right.png')
-        self.playerLeft = pygame.image.load('assets/left.png')
+        self.blue = pygame.image.load('Pygame1/blue.png')
+        self.died = pygame.image.load('Pygame1/died.png')
+        self.spring = pygame.image.load('Pygame1/spring.png')
+        self.spring_1 = pygame.image.load('Pygame1/spring_1.png')
+        self.red_1 = pygame.image.load('Pygame1/red_1.png')
+        self.red = pygame.image.load('Pygame1/red.png')
+        self.playerLeft_1 = pygame.image.load('Pygame1/left_1.png')
+        self.playerRight_1 = pygame.image.load('Pygame1/right_1.png')
+        self.playerRight = pygame.image.load('Pygame1/right.png')
+        self.playerLeft = pygame.image.load('Pygame1/left.png')
 
     def updatePlayer(self):
         if not self.jump:
